@@ -18,7 +18,10 @@ namespace CustomerApp.Tests
         [TestMethod]
         public void Constructor_NullRepository_ShouldThrow()
         {
-            Action action = () => new MainViewModel(null);
+            Action action = () =>
+            {
+                var _ = new MainViewModel(null);
+            };
 
             action.Should().Throw<ArgumentNullException>()
                 .Where(e => e.Message.Contains("customerRepository"));
@@ -28,7 +31,7 @@ namespace CustomerApp.Tests
         public void Constructor_Customers_ShouldHaveValue()
         {
             var repository = Mock.Of<ICustomerRepository>();
-            var customers = new List<Customer>();
+            IEnumerable<Customer> customers = new List<Customer>();
             
             var vm =  new MainViewModel(repository);
             
