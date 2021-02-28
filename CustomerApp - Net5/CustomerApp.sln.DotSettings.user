@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d60b3b11_002D23e6_002D4c46_002D9954_002D9868abd81b60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Constructor_NullRepository_ShouldThrow" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.Constructor_Customers_ShouldHaveValue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.Constructor_NullRepository_ShouldThrow&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.Constructor_SelectedCustomer_ShouldBeNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.AddCommand_ShouldAddInRepository&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.AddCommand_SelectedCustomer_ShouldNotBeNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.AddCommand_ShouldNotifyCustomers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.RemoveCommand_SelectedCustomerNull_ShouldNotRemoveInRepository&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.RemoveCommand_SelectedCustomerNotNull_ShouldRemoveInRepository&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.RemoveCommand_SelectedCustomer_ShouldBeNull&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.RemoveCommand_ShouldNotifyCustomers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.SaveCommand_ShouldCommitInRepository&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.SearchCommand_WithText_ShouldSetFilter&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.SearchCommand_WithoutText_ShouldSetFilter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d9fc401c_002Dd130_002D45dc_002Da369_002D6d6b615a66a6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Constructor_NullRepository_ShouldThrow #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.Constructor_NullRepository_ShouldThrow&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

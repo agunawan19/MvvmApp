@@ -13,7 +13,7 @@
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="Country" VerticalAlignment="Center" Margin="5"/>
             <TextBox x:Name="searchText" VerticalAlignment="Center" Margin="5,3" Width="250" Height="25" VerticalContentAlignment="Center"/>
-            <Button x:Name="PesqBtn" Content="Find" Width="75" Height="25" Margin="10,5" VerticalAlignment="Center" Click="SearchClick" />
+            <Button x:Name="PesqBtn" Content="Find" Width="75" Height="25" Margin="10,5" VerticalAlignment="Center" Command="{Binding Path=SearchCommand}" CommandParameter="{Binding Path=Text, ElementName=searchText}" />
         </StackPanel>
         <DataGrid AutoGenerateColumns="False" x:Name="master" CanUserAddRows="False" CanUserDeleteRows="True" Grid.Row="1">
             <DataGrid.Columns>
@@ -30,11 +30,12 @@
                 <DataGridTextColumn x:Name="phoneColumn" Binding="{Binding Path=Phone}" Header="Phone" Width="100" />
             </DataGrid.Columns>
         </DataGrid>
+        <!-- <customerApp:Detail Grid.Row="2" DataContext="{Binding ElementName=master,Path=SelectedItem}" Margin="5" x:Name="detail"/> -->
         <customerApp:Detail Grid.Row="2" DataContext="{Binding ElementName=master,Path=SelectedItem}" Margin="5" x:Name="detail"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="5" Grid.Row="3">
-            <Button Width="75" Height="25" Margin="5" Content="Add" Click="AddClick" />
-            <Button Width="75" Height="25" Margin="5" Content="Remove" Click="RemoveClick" />
-            <Button Width="75" Height="25" Margin="5" Content="Save" Click="SaveClick" />
+            <Button Width="75" Height="25" Margin="5" Content="Add" Command="{Binding Path=AddCommand}" />
+            <Button Width="75" Height="25" Margin="5" Content="Remove" Command="{Binding Path=RemoveCommand}" />
+            <Button Width="75" Height="25" Margin="5" Content="Save" Command="{Binding Path=SaveCommand}"/>
         </StackPanel>
         
     </Grid>
