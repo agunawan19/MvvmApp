@@ -1,5 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d60b3b11_002D23e6_002D4c46_002D9954_002D9868abd81b60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Constructor_NullRepository_ShouldThrow" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\andri\AppData\Local\JetBrains\Rider2020.3\resharper-host\temp\Rider\vAny\CoverageData\_CustomerApp.492406477\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d122b74b_002Deb3f_002D45ca_002D8eea_002D158205999e8e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Constructor_Customers_ShouldHaveValue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d60b3b11_002D23e6_002D4c46_002D9954_002D9868abd81b60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Constructor_NullRepository_ShouldThrow" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.Constructor_Customers_ShouldHaveValue&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.Constructor_NullRepository_ShouldThrow&lt;/TestId&gt;&#xD;
@@ -20,4 +24,5 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::B0D46850-BAC5-4B02-B509-EA99F516C0F6::net5.0-windows7.0::CustomerApp.Tests.MainViewModelTests.Constructor_NullRepository_ShouldThrow&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
